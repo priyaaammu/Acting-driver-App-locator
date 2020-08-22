@@ -1,0 +1,318 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+   android:background="@drawable/a5"
+    >
+    
+     <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_weight="1"
+      android:layout_gravity="center"
+      android:gravity="center"
+      
+       >
+    
+     <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_weight="4.7"
+      android:layout_gravity="center"
+      android:gravity="center"
+      
+       >
+    <TextView 
+         android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="0.5"
+           android:text="ACTING DRIVERS"
+             android:layout_gravity="center"
+      android:gravity="center"
+         android:layout_margin="10dp"
+         android:textColor="#FFFFFF"
+         android:textStyle="bold"
+      
+        
+        />
+    </LinearLayout>
+    
+   <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_weight="1"
+      android:layout_gravity="center"
+      android:gravity="center"
+      
+       >
+     <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_weight="0.5"
+      android:layout_gravity="center"
+      android:gravity="center"
+       android:layout_margin="5dp"
+      
+       >
+       
+       <EditText 
+           
+           android:id="@+id/driver_name"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="0.5"
+           android:textSize="20sp"
+           android:hint="Name..."
+           android:background="@drawable/rounded_edittext"
+             android:layout_gravity="center"
+      android:inputType="text"
+      android:paddingLeft="20dp"
+           
+           
+           />
+       </LinearLayout>
+       
+      <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_weight="0.5"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:layout_margin="5dp"
+      
+       >
+         <EditText 
+           
+           android:id="@+id/driver_mno"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="0.5"
+           android:textSize="20sp"
+           android:hint="Mobile No..."
+           android:background="@drawable/rounded_edittext"
+             android:layout_gravity="center"
+      android:inputType="number"
+      
+      android:paddingLeft="20dp"
+           
+           
+           />
+         </LinearLayout>
+          <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_weight="0.5"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:layout_margin="5dp"
+      
+       >
+         <EditText 
+           
+           android:id="@+id/driver_address"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="0.5"
+           android:textSize="20sp"
+           android:hint="Address..."
+           android:background="@drawable/rounded_edittext"
+             android:layout_gravity="center"
+      android:inputType="text"
+      android:paddingLeft="20dp"
+           
+           
+           />
+         </LinearLayout>
+          <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_weight="0.5"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:layout_margin="5dp"
+      
+       >
+         <EditText 
+           
+           android:id="@+id/driver_ano"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="0.5"
+           android:textSize="20sp"
+           android:hint="Aadhar No..."
+           android:background="@drawable/rounded_edittext"
+             android:layout_gravity="center"
+      android:inputType="number"
+      android:paddingLeft="20dp"
+           
+           
+           />
+         </LinearLayout>
+          <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_weight="0.5"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:layout_margin="5dp"
+      
+       >
+         <EditText 
+           
+           android:id="@+id/driver_lno"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="0.5"
+           android:textSize="20sp"
+           android:hint="Vehicle No..."
+           android:background="@drawable/rounded_edittext"
+             android:layout_gravity="center"
+      android:inputType="text"
+      android:paddingLeft="20dp"
+           
+           
+           />
+         <!--     <TextView 
+           
+           android:id="@+id/view_image"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="0.5"
+           android:text="No file Chosen"
+           android:textColor="#FFFFFF"
+           android:textSize="13sp"
+           android:textStyle="bold"
+             android:layout_marginTop="10dp"
+            
+             android:layout_marginBottom="10dp"
+               android:layout_gravity="center"
+      android:gravity="left|center"
+           
+           
+           /> -->
+         </LinearLayout>
+         
+            <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="horizontal"
+      android:layout_weight="0.5"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:layout_margin="5dp"
+      
+       >
+        <Button 
+           
+           android:id="@+id/driver_upload_image"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="0.5"
+           android:text="Browse Image"
+           android:textColor="#003672"
+           android:textSize="20sp"
+           android:textStyle="bold"
+             android:layout_marginTop="10dp"
+             android:layout_marginLeft="20dp"
+             android:layout_marginRight="20dp"
+             android:layout_marginBottom="10dp"
+             android:background="@drawable/rounded_edittext"
+               android:layout_gravity="center"
+               android:padding="3dp"
+      android:gravity="center"
+           
+           
+           />
+        
+        <TextView 
+           
+           android:id="@+id/driver_view_image"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="0.5"
+           android:text="No file Chosen"
+           android:textColor="#FFFFFF"
+           android:textSize="13sp"
+           android:textStyle="bold"
+             android:layout_marginTop="10dp"
+            
+             android:layout_marginBottom="10dp"
+               android:layout_gravity="center"
+      android:gravity="left|center"
+           
+           
+           />
+         </LinearLayout>
+        <!-- <Button 
+           
+           android:id="@+id/client"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="0.5"
+           android:text="CLIENT"
+           android:textColor="#FFFFFF"
+           android:textSize="20sp"
+           android:textStyle="bold"
+             android:layout_margin="10dp"
+             android:background="#8A2BE2"
+               android:layout_gravity="center"
+      android:gravity="center"
+           
+           
+           /> -->
+       
+       <LinearLayout 
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="horizontal"
+      android:layout_weight="0.5"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:layout_margin="5dp"
+      
+       >
+         
+            <Button 
+           
+           android:id="@+id/driver_register"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="0.5"
+           android:text="Save"
+           android:textColor="#003672"
+           android:textSize="20sp"
+           android:textStyle="bold"
+             android:layout_margin="10dp"
+             android:background="@drawable/button_back"
+               android:layout_gravity="center"
+      android:gravity="center"
+           
+           
+           />
+           
+           
+         </LinearLayout>
+       
+       
+       
+   </LinearLayout>
+
+   
+    
+    
+    </LinearLayout>
+    
+    
+    
+    
+
+</LinearLayout>
